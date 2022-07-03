@@ -1,0 +1,81 @@
+.services {
+  height: 35vh;
+}
+
+.slideItem {
+  /* background-color: aqua; */
+  /* border: 1px solid #000; */
+  padding: 0 5px;
+}
+
+.btnPrev {
+  background-color: #fff;
+  padding: 10px 5px 10px 10px;
+  border: 0.5px solid #000;
+  margin-right: 10px;
+}
+
+.btnNext {
+  background-color: #000;
+  padding: 10px 10px 10px 5px;
+  border: 0.5px solid #000;
+}
+
+.left {
+  height: 10px;
+  width: 10px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.right {
+  height: 10px;
+  width: 10px;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.card {
+  /* border-top: 1px solid #000; */
+  position: relative;
+}
+
+.card h4 {
+  padding: 10px 0;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 70%; /* or 100px */
+  border-top: 1px solid #000;
+}
+
+.bg1 {
+  position: absolute;
+  /* background-color: #eaeaea; */
+  width: 400px;
+  border: 1px solid #eaeaea;
+  height: 150px;
+  right: 0;
+  
+  z-index: -10;
+  transform: rotate(45deg);
+}
+
+.bg2 {
+  position: absolute;
+  /* background-color: #eaeaea; */
+  width: 200px;
+  border: 1px solid #eaeaea;
+  height: 100px;
+  right: 20px;
+  /* margin-bottom: 20px; */
+  z-index: -10;
+  transform: rotate(45deg);
+}

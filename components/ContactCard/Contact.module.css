@@ -1,0 +1,38 @@
+.contactCard {
+  background-color: #eaeaea;
+  margin: 100px 0;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg1 {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 340px;
+  transform: rotate(40deg);
+  margin-top: 60px;
+  z-index: 2;
+}
+
+.bg2 {
+  border: 1px solid #fff;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 440px;
+  transform: rotate(60deg);
+  z-index: 2;
+}
+
+.bg3 {
+  border: 1px solid #fff;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 540px;
+  transform: rotate(80deg);
+  z-index: 2;
+}

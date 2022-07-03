@@ -1,0 +1,38 @@
+.about {
+  height: 70vh;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.aboutImage {
+  padding: 5px;
+  border: 1px solid #000000;
+  z-index: -4;
+}
+
+/* .desc{
+    max-width: 90%;
+} */
+
+.bg1 {
+  position: absolute;
+  background-color: #eaeaea;
+  width: 64%;
+  height: 38%;
+
+  right: 0;
+  z-index: -10;
+}
+
+.bg2 {
+  position: absolute;
+  /* background-color: #eaeaea; */
+  width: 100px;
+  height: 150px;
+  left: 44%;
+  margin-top: 20%;
+  z-index: -2;
+  border: 1px solid #aaaaaa;
+}

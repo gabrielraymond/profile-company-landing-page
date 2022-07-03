@@ -1,0 +1,45 @@
+.blogs {
+  padding: 60px 0;
+}
+
+.slideItem {
+  /* background-color: aqua; */
+  /* border: 1px solid #000; */
+  padding: 10px;
+  margin: 5px;
+}
+
+.btnPrev {
+  background-color: #fff;
+  padding: 10px 5px 10px 10px;
+  border: 0.5px solid #000;
+  margin-right: 10px;
+}
+
+.btnNext {
+  background-color: #000;
+  padding: 10px 10px 10px 5px;
+  border: 0.5px solid #000;
+}
+
+.left {
+  height: 10px;
+  width: 10px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.right {
+  height: 10px;
+  width: 10px;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.card {
+  margin: 5px;
+  padding: 10px;
+  box-shadow: -5px 10px 10px 0px rgba(46, 74, 117, 0.5);
+}
