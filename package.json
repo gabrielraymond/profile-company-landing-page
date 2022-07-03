@@ -17,6 +17,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.1.12",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6"
   }
